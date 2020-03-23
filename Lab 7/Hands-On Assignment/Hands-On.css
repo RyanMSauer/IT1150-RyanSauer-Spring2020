@@ -1,0 +1,36 @@
+/* Answers To The Hands-On 1-5 On Page 243 */
+
+#ho_1
+{
+  position: fixed;
+  background-color: lightgrey;
+  font-weight: bold;
+  padding: 10pt  
+}
+
+#h0_2
+{
+    float: left;
+    background-color: #f5f5dc;
+    font-family: verdana, sans-serif;
+    font-size: large;
+    padding: 20px;
+    width: 160px;
+}
+
+#ho_3
+{
+    position: absolute;
+        top: 20px;
+        right: 40px;
+    background-color: lightgrey;
+    border: solid;
+}
+
+#ho_4
+{
+    position: relative;
+        left: 15px;
+    background-color: lightgreen;
+}
+
