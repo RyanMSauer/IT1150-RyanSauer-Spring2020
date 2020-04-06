@@ -1,0 +1,281 @@
+*{box-sizing: border-box;}
+
+header{
+   display: block;
+   background-color: #000033;
+   color: #ffffff;
+   height: 120px;
+   text-align: center;
+   padding-top: 30px;
+   padding-left: 3em;  
+   }
+
+main {
+    display: block;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-left: 30px;
+    }
+main ul {
+    list-style-image: url(marker.gif);
+    }
+
+nav {
+    display: block;
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+   }
+   nav a {
+       text-decoration: none;
+   }
+   nav ul{
+       list-style: none;
+       margin: 0;
+       padding-left: 0;
+       font-size: 1.2em;
+   }
+   nav ul :link{
+       color: #5c7fa3;
+   }
+   nav ul :visited{
+       color: 344873;
+   }
+   nav ul :hover{
+       color: #a52a2a;
+   }
+
+body {
+    background-color: #b8dbed;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+    h1 {
+        margin-bottom: 0;
+        font-family: Georgia, 'Times New Roman', serif;
+        margin-top: 0px;
+        font-size: 3em;
+        letter-spacing: 0.25em;
+    }    
+    h2 {
+        font-family: Georgia, 'Times New Roman', serif;
+        color: #3399cc;
+        text-shadow: offset 1px #cccccc;
+    }
+    h3 {
+        font-family: Georgia, 'Times New Roman', serif;
+        color: #000033;
+    }
+
+footer {
+    display: block;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+    }
+
+dt {
+    color: #000033;
+    }
+
+figure{
+    display: block;
+}
+
+figcaption{
+    display: block;
+}
+
+aside{
+    display: block;
+}
+
+section{
+    display: block;
+}
+
+article{
+    display: block;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 20px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+input [type='submit']{
+    margin-left: 20px;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.resort{
+    color: #5c7fa3;
+    font-weight: bold;
+}
+#contact {
+    font-size: 90%;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90c7e3;
+    border: 1px;
+        border-color: #000033;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: offset 3px #333333;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
+}
+#homehero {
+    height: 300px;
+    background-image: url(coast2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    margin-left: 190px;
+}
+#yurthero {
+    height: 300px;
+    background-image: url(yurt.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    margin-left: 190px;
+}
+#trailhero {
+    height: 300px;
+    background-image: url(trail.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#mobile{
+    display: none;
+}
+
+#desktop{
+    display: inline;
+}
+
+@media only screen and (max-width: 64em) {
+    body{
+        margin: 0e;
+        background-color: #ffffff;
+    }
+    #wrapper{
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+        border: none;
+    }
+    header{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        height: auto;
+    }
+    h1{
+        letter-spacing: 0.1em;
+    }
+    main{
+        margin-left: 0;
+    }
+    nav{
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+        nav li{
+            display: inline;
+            padding-top: 0.25em;
+            padding-bottom: 0.25em;
+            padding-left: 0.75em;
+            padding-right: 0.75em;
+        }
+    #homehero{
+        margin-left: 0;
+        height: 200px;
+    }
+    #yurthero{
+        margin-left: 0;
+        height: 200px;
+    }
+    #trailhero{
+        margin-left: 0;
+        height: 200px;
+    }
+    footer{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    main{
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    nav{
+        padding: 0;
+    }
+        nav li{
+            display: block;
+            margin: 0;
+            border: #330000;
+                border-style: solid;
+                border-width: 2px;
+        }
+        nav :link{
+            display: block;
+        }
+    #homehero{
+        background-image: none;
+        height: 0;
+    }
+     #yurthero{
+        background-image: none;
+        height: 0;
+    }
+    #trailhero{
+        background-image: none;
+        height: 0;
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: inline;
+    }
+    label { float: none;
+        text-align: left; }
+    input[type="submit"]{
+        margin-left: 0; }
+}
